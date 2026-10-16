@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos Del Chavo | Authentic Mexican Tacos in Kennesaw</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600&display=swap');
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .font-sans { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="wood-bg text-zinc-100 font-sans selection:bg-amber-600">
+
+    <!-- Ambient Overlay -->
+    <div class="bg-zinc-950/45 min-h-screen">
+
+        <!-- Navigation Bar -->
+        <header class="fixed top-0 left-0 right-0 z-50 bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800">
+            <div class="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <span class="font-serif text-2xl tracking-wider uppercase text-amber-200">Tacos Del Chavo</span>
+                </div>
+                <nav class="space-x-8 hidden md:flex text-xs tracking-[0.25em] uppercase text-zinc-300 font-medium">
+                    <a href="#about" class="hover:text-amber-300 transition">About</a>
+                    <a href="#menu" class="hover:text-amber-300 transition">Menu Highlights</a>
+                    <a href="#gallery" class="hover:text-amber-300 transition">Gallery</a>
+                    <a href="#visit" class="hover:text-amber-300 transition">Visit Us</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="relative pt-44 pb-28 px-6 text-center border-b border-zinc-800/85">
+            <div class="max-w-4xl mx-auto space-y-6">
+                <span class="text-xs uppercase tracking-[0.4em] text-amber-400 font-semibold">Kennesaw, Georgia</span>
+                <h1 class="font-serif text-5xl md:text-7xl font-normal tracking-tight text-amber-50">Handmade Tortillas & Authentic Flavors</h1>
+                <p class="text-zinc-200 font-light text-lg max-w-2xl mx-auto leading-relaxed drop-shadow">
+                    "Tender, flavorful, and made from scratch." Experience traditional Mexican recipes, handmade corn tortillas, and world-class Birria right here in Kennesaw.
+                </p>
+                <div class="pt-4 flex justify-center gap-4">
+                    <a href="#menu" class="border border-amber-500/60 bg-zinc-900/80 text-amber-200 px-8 py-4 text-xs uppercase tracking-[0.25em] hover:bg-amber-600 hover:text-white transition duration-300 shadow-xl">Explore Menu</a>
+                    <a href="#visit" class="bg-amber-600 text-zinc-950 px-8 py-4 text-xs uppercase tracking-[0.25em] font-semibold hover:bg-amber-500 transition duration-300 shadow-xl">Hours & Location</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content Container -->
+        <main class="max-w-6xl mx-auto px-6 py-20 space-y-28">
+
+            <!-- About / Vibe Section -->
+            <section id="about" class="bg-zinc-950/85 border border-zinc-800/80 rounded-2xl p-8 md:p-14 shadow-2xl backdrop-blur-md grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-6">
+                    <span class="text-xs uppercase tracking-[0.3em] text-amber-400 font-semibold">Our Tradition</span>
+                    <h2 class="font-serif text-3xl md:text-4xl text-amber-100">Freshly Made From Scratch Daily</h2>
+                    <p class="text-zinc-300 font-light leading-relaxed text-sm">
+                        When you walk into Tacos Del Chavo, you are greeted with a lively atmosphere, friendly service, and the incredible aroma of handmade corn and flour tortillas pressed right in house. Whether you are craving our signature Birria tacos or crispy empanadas, every dish is prepared with authentic passion.
+                    </p>
+                    <div class="pt-2 border-t border-zinc-800 space-y-2 text-sm text-zinc-300">
+                        <p><strong class="text-amber-200 font-medium">Address:</strong> 3055 N Main St, Kennesaw, GA 30144</p>
+                        <p><strong class="text-amber-200 font-medium">Phone:</strong> (678) 886-8893</p>
+                    </div>
+                </div>
+                <!-- Photo Blank: Drop your restaurant storefront or inside vibe photo here -->
+                <div class="bg-zinc-900/90 h-72 rounded-xl border border-zinc-800 flex items-center justify-center overflow-hidden relative shadow-inner">
+                    <!-- Change 'storefront.jpg' to your saved photo filename -->
+                    <img src="storefront.jpg" alt="Tacos Del Chavo Storefront" class="w-full h-full object-cover">
+                    <span class="absolute text-xs text-zinc-500 uppercase tracking-widest bg-zinc-950/80 px-3 py-1 rounded">Drop storefront.jpg here</span>
+                </div>
+            </section>
+
+            <!-- Menu Highlights Section -->
+            <section id="menu" class="space-y-12">
+                <div class="text-center space-y-3">
+                    <span class="text-xs uppercase tracking-[0.3em] text-amber-400 font-semibold">Authentic & Delicious</span>
+                    <h2 class="font-serif text-4xl text-amber-100">Popular Menu Highlights</h2>
+                    <p class="text-zinc-300 text-sm max-w-lg mx-auto">Favorites loved by our community, crafted with rich traditional spices and tender meats.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Item 1 -->
+                    <div class="bg-zinc-950/85 border border-zinc-800/80 p-6 rounded-xl shadow-2xl backdrop-blur-md space-y-4">
+                        <div class="h-44 rounded-lg bg-zinc-900 border border-zinc-800 flex items-center justify-center overflow-hidden relative">
+                            <!-- Change 'birria.jpg' to your photo -->
+                            <img src="birria.jpg" alt="Birria Tacos" class="w-full h-full object-cover">
+                            <span class="absolute text-[10px] text-zinc-500 uppercase tracking-widest bg-zinc-950/80 px-2 py-1 rounded">birria.jpg</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-serif text-xl text-amber-200">Birria Tacos</h3>
+                            <span class="text-amber-400 font-semibold text-xs tracking-wider">Top Seller</span>
+                        </div>
+                        <p class="text-zinc-300 text-xs leading-relaxed font-light">
+                            Out of this world tender beef birria served with handmade tortillas and savory consommé for dipping.
+                        </p>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="bg-zinc-950/85 border border-zinc-800/80 p-6 rounded-xl shadow-2xl backdrop-blur-md space-y-4">
+                        <div class="h-44 rounded-lg bg-zinc-900 border border-zinc-800 flex items-center justify-center overflow-hidden relative">
+                            <!-- Change 'tacos.jpg' to your photo -->
+                            <img src="tacos.jpg" alt="Mexican Tacos" class="w-full h-full object-cover">
+                            <span class="absolute text-[10px] text-zinc-500 uppercase tracking-widest bg-zinc-950/80 px-2 py-1 rounded">tacos.jpg</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-serif text-xl text-amber-200">Authentic Tacos</h3>
+                            <span class="text-amber-400 font-semibold text-xs tracking-wider">Choice of Meat</span>
+                        </div>
+                        <p class="text-zinc-300 text-xs leading-relaxed font-light">
+                            Served on freshly pressed corn tortillas with onions, cilantro, and your choice of Carne Asada, Pastor, Tripa, or Chicken.
+                        </p>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="bg-zinc-950/85 border border-zinc-800/80 p-6 rounded-xl shadow-2xl backdrop-blur-md space-y-4">
+                        <div class="h-44 rounded-lg bg-zinc-900 border border-zinc-800 flex items-center justify-center overflow-hidden relative">
+                            <!-- Change 'empanadas.jpg' to your photo -->
+                            <img src="empanadas.jpg" alt="Empanadas & Sopes" class="w-full h-full object-cover">
+                            <span class="absolute text-[10px] text-zinc-500 uppercase tracking-widest bg-zinc-950/80 px-2 py-1 rounded">empanadas.jpg</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-serif text-xl text-amber-200">Empanadas & Sopes</h3>
+                            <span class="text-amber-400 font-semibold text-xs tracking-wider">Traditional</span>
+                        </div>
+                        <p class="text-zinc-300 text-xs leading-relaxed font-light">
+                            Golden, crispy empanadas and perfectly textured sopes loaded with savory fillings and fresh toppings.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            <section id="gallery" class="space-y-8">
+                <div class="text-center space-y-3">
+                    <span class="text-xs uppercase tracking-[0.3em] text-amber-400 font-semibold">Visual Feast</span>
+                    <h2 class="font-serif text-4xl text-amber-100">Atmosphere & Food</h2>
+                    <p class="text-zinc-300 text-sm max-w-md mx-auto">A glimpse inside our Kennesaw kitchen and dining experience.</p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <!-- Gallery Blank 1 -->
+                    <div class="h-48 bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden relative flex items-center justify-center">
+                        <img src="gallery1.jpg" alt="Gallery photo 1" class="w-full h-full object-cover">
+                        <span class="absolute text-[10px] text-zinc-500 bg-zinc-950/80 px-2 py-1 rounded">gallery1.jpg</span>
+                    </div>
+                    <!-- Gallery Blank 2 -->
+                    <div class="h-48 bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden relative flex items-center justify-center">
+                        <img src="gallery2.jpg" alt="Gallery photo 2" class="w-full h-full object-cover">
+                        <span class="absolute text-[10px] text-zinc-500 bg-zinc-950/80 px-2 py-1 rounded">gallery2.jpg</span>
+                    </div>
+                    <!-- Gallery Blank 3 -->
+                    <div class="h-48 bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden relative flex items-center justify-center">
+                        <img src="gallery3.jpg" alt="Gallery photo 3" class="w-full h-full object-cover">
+                        <span class="absolute text-[10px] text-zinc-500 bg-zinc-950/80 px-2 py-1 rounded">gallery3.jpg</span>
+                    </div>
+                    <!-- Gallery Blank 4 -->
+                    <div class="h-48 bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden relative flex items-center justify-center">
+                        <img src="gallery4.jpg" alt="Gallery photo 4" class="w-full h-full object-cover">
+                        <span class="absolute text-[10px] text-zinc-500 bg-zinc-950/80 px-2 py-1 rounded">gallery4.jpg</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Visit Us & Hours Section -->
+            <section id="visit" class="bg-zinc-950/85 border border-zinc-800/80 rounded-2xl p-8 md:p-14 shadow-2xl backdrop-blur-md grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-6">
+                    <span class="text-xs uppercase tracking-[0.3em] text-amber-400 font-semibold">Come Dine With Us</span>
+                    <h2 class="font-serif text-3xl md:text-4xl text-amber-100">Hours & Location</h2>
+                    <p class="text-zinc-300 font-light leading-relaxed text-sm">
+                        Stop by for lunch or dinner today! We offer indoor and outdoor covered patio seating, quick take-out, and friendly service.
+                    </p>
+                    <div class="space-y-2 text-sm text-zinc-300 pt-2 font-light">
+                        <p><strong>Thursday – Saturday:</strong> 11:00 AM – 8:00 PM</p>
+                        <p><strong>Sunday:</strong> 11:00 AM – 7:00 PM</p>
+                        <p><strong>Monday – Wednesday:</strong> 11:00 AM – 3:00 PM</p>
+                    </div>
+                </div>
+                <div class="bg-zinc-900/90 p-8 rounded-xl border border-zinc-800 space-y-4">
+                    <h3 class="font-serif text-xl text-amber-200">Get in Touch</h3>
+                    <div class="space-y-3 text-sm text-zinc-300 pt-2 font-light">
+                        <p><strong>Address:</strong> 3055 N Main St, Kennesaw, GA 30144</p>
+                        <p><strong>Phone:</strong> (678) 886-8893</p>
+                        <p><strong>Dine-in & Takeout Available</strong></p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="border-t border-zinc-800 bg-zinc-950 py-12 text-center text-zinc-500 text-xs tracking-widest uppercase space-y-2">
+            <p>&copy; 2026 Tacos Del Chavo. All rights reserved.</p>
+            <p class="text-amber-400/60 lowercase tracking-normal">Built for local community favorites.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
