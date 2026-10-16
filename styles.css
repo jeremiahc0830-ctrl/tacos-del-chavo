@@ -1,0 +1,10 @@
+/* Authentic warm rustic Mexican restaurant theme */
+.wood-bg {
+    background-color: #1a0f0a;
+    background-image: 
+        linear-gradient(to bottom, rgba(20, 10, 5, 0.70), rgba(30, 15, 8, 0.85)),
+        url('wood-2045379_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
